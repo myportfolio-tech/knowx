@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+    {% block content %}
+        <h1>Avascent Staffer</h1>
+        <a class="btn btn-outline-info mb-4 enabled" href="{{url_for('emp.create_employee') }}">Create Employee</a>
+        <a class="btn btn-outline-info mb-4 disabled" href="{{url_for('emp.create_employee') }}">Create Employee</a>
+        <a class="btn btn-outline-info mb-4 invisible" href="{{url_for('emp.create_employee') }}">Create Employee</a>
+    {% endblock content%}
