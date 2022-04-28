@@ -8,4 +8,4 @@ main = Blueprint('main', __name__)
 @main.route('/home')
 def home():
 
-    return render_template('home.html', title='Staffer - Home')
+    return 'Hello from flask'
